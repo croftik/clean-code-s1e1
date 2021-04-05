@@ -7,45 +7,45 @@
   <body>
     <header class="header">
       <img src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix">
-      <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <article id="add-element">
-        <label for="new-task">Add Item</label>
-        <div class="form-new-task">
-          <input id="new-task" class="task" type="text">
+      <article id="article_new-task" class="article">
+        <label for="form__input">Add Item</label>
+        <div class="form">
+          <input id="form__input" class="task" type="text">
           <button>Add</button>
         </div>
       </article>
       <h3>Todo</h3>
-      <article id="incomplete-tasks">
-        <section>
+      <article id="article_todo" class="article">
+        <section class="section">
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="button_edit">Edit</button>
+          <button class="button_delete">
             <img src="./remove.svg" alt="">
           </button>
         </section>
-        <section class="edit-mode">
+        <section class="section__edit-mode section">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
+          <button class="button_edit">Save</button>
+          <button class="button_delete">
             <img src="./remove.svg" alt="">
           </button>
         </section>
       </article>
       <h3>Completed</h3>
-      <article id="completed-tasks">
-        <section>
+      <article id="completed-tasks" class="article">
+        <section class="section">
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="button_edit">Edit</button>
+          <button class="button_delete">
             <img src="./remove.svg" alt="">
           </button>
         </section>
